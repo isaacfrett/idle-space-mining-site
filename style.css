@@ -16,3 +16,19 @@ nav { border-bottom: 1px solid #2b3a58; padding-bottom: 14px; margin-bottom: 36p
 nav a { margin-right: 20px; text-decoration: none; font-weight: 500; }
 footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid #2b3a58; color: #4a5670; font-size: 0.88rem; }
 .card { background: #141c2e; border: 1px solid #2b3a58; border-radius: 12px; padding: 18px 22px; margin: 14px 0; }
+
+/* App Store link. Uses the h1 amber as a fill rather than the body link cyan,
+   so it reads as the page's action rather than another navigation link. */
+.store { margin: -24px 0 40px; }
+.store-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: #ffb547;
+  color: #10141c;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.store-link:hover { background: #ffc46b; }
+.store-link:focus-visible { outline: 3px solid #4fd6ff; outline-offset: 3px; }
